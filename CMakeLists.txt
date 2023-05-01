@@ -13,5 +13,4 @@ add_executable(myproject
 
 target_link_libraries(myproject dl
     glfw
-    OpenGL::GL
 )

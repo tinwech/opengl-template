@@ -1,7 +1,27 @@
 # OpenGL Project Template
-This repository is a quick starting point for developing an OpenGL project, including a basic(Phong) shader and a textured cat model.
+This repository is a quick setup for an OpenGL project, including a Phong shader and a textured cat model.
 
-## Usage
+## For Windows
+
+To be updated...
+
+## For Ubuntu
+
+### Install Dependencies
+
+```
+sudo apt-get update
+sudo apt-get install cmake
+sudo apt-get install build-essential
+sudo apt-get install libgl1-mesa-dev
+sudo apt-get install libglu1-mesa-dev
+sudo apt-get install freeglut3-dev
+sudo apt-get install libglfw3-dev
+sudo apt-get install libglew-dev
+sudo apt-get install libglm-dev
+```
+
+### Build
 
 ```
 mkdir build
@@ -9,7 +29,7 @@ cd build
 cmake ..
 ```
 
-## Demo
+### Run
 
 ```
 ./build/myproject
